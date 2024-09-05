@@ -20,7 +20,7 @@ Quick Start
 4. $ bitbake mitwell-image
 5. dd to a SD card the generated wic file 
 6. Boot Yocto through SD card
-7. Boot the MiTwell OSM-IMX8MP
+7. Boot the MiTwell MOSM-M330E
 
 
 
