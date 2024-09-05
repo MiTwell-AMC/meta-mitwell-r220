@@ -1,0 +1,21 @@
+From: Francis Lee <francis.lee@mitwell.com.tw>
+Date: Thu, 29 Aug 2024 16:32:26 +0800
+
+---
+diff --git a/arch/arm64/boot/dts/freescale/Makefile b/arch/arm64/boot/dts/freescale/Makefile
+index 7b1a129e6b9f..831224d24958 100644
+--- a/arch/arm64/boot/dts/freescale/Makefile
++++ b/arch/arm64/boot/dts/freescale/Makefile
+@@ -367,7 +367,9 @@ dtb-$(CONFIG_ARCH_MXC) += imx93-11x11-evk.dtb \
+ 			  imx93-11x11-evk-flexspi-m2.dtb \
+ 			  imx93-11x11-evk-mt9m114.dtb \
+ 			  imx93-11x11-evk-ld.dtb \
+-			  imx93-11x11-evk-rpmsg.dtb imx93-11x11-evk-rpmsg-lpv.dtb
++			  imx93-11x11-evk-rpmsg.dtb imx93-11x11-evk-rpmsg-lpv.dtb \
++			  imx93-11x11-evk-m330e-r220-mickledore.dtb \
++			  imx93-11x11-evk-m330e-r220-lvds-panel.dtb
+ dtb-$(CONFIG_ARCH_MXC) += imx93-9x9-qsb.dtb \
+ 			  imx93-9x9-qsb-can1.dtb \
+ 			  imx93-9x9-qsb-flexspi-m2.dtb \
+-- 
+2.34.1

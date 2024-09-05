@@ -1,0 +1,12 @@
+# meta-mitwell-r220 BSP layer release notes
+#
+# MOSM-M330E-R220
+#
+## v1.2
+## 2024-08-28
+#
+### Features :
+#   Yocto Mickledore
+#   Kernel v6.1.36
+#   U-boot v2023.04
+
