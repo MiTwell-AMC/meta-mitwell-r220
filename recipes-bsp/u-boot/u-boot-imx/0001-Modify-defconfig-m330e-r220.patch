@@ -1,0 +1,19 @@
+From: Francis Lee <francis.lee@mitwell.com.tw>
+Date: Thu, 29 Aug 2024 16:32:26 +0800
+
+---
+diff --git a/configs/imx93_11x11_evk_defconfig b/configs/imx93_11x11_evk_defconfig
+index b4d6041c7d..b04cd5a1ff 100644
+--- a/configs/imx93_11x11_evk_defconfig
++++ b/configs/imx93_11x11_evk_defconfig
+@@ -29,7 +29,7 @@ CONFIG_REMAKE_ELF=y
+ CONFIG_SYS_MONITOR_LEN=524288
+ CONFIG_DISTRO_DEFAULTS=y
+ CONFIG_BOOTCOMMAND="run distro_bootcmd;run bsp_bootcmd"
+-CONFIG_DEFAULT_FDT_FILE="imx93-11x11-evk.dtb"
++CONFIG_DEFAULT_FDT_FILE="imx93-11x11-evk-m330e-r220-mickledore.dtb"
+ CONFIG_ARCH_MISC_INIT=y
+ CONFIG_BOARD_EARLY_INIT_F=y
+ CONFIG_BOARD_LATE_INIT=y
+-- 
+2.34.1
