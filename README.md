@@ -1,5 +1,8 @@
 # meta-mitwell-r220
 
+This chapter describes how to build an Yocto BSP for a MOSM-M330E(OSM) i.MX93 module(carrier) by using a Yocto Project build environment. 
+It describes the i.MX release layer and R220-specific usage. The Yocto Project is an open-source collaboration focused on embedded Linux® OS development.
+
 This README file contains information on the contents of the meta-mitwell-r220-hardknott layer.
 
 Please see the corresponding sections below for details.
